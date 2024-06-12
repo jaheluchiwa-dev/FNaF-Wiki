@@ -1,0 +1,171 @@
+@import url(normalize.css);
+
+@font-face {
+    font-family: "five-night-at-freddys";
+    src: url('font/five-nights-at-freddys.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+    --text-color: #000000;
+    --text-color-2: #fff;
+    --highlight-color: #ff0000;
+    --nav-background-color: #f4a460; 
+}
+
+* {
+    font-family: "five-night-at-freddys";
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+    height: 100%;
+    box-shadow: inset rgba(0, 0, 0, 1) 0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* header */
+
+header {
+    height: 70px;
+    width: 100vw;
+    margin-bottom: 15px;
+
+    background-color: var(--nav-background-color);
+    
+    box-shadow: inset rgba(0, 0, 0, 1) 0px 10px 40px 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 500px;
+
+    filter: brightness(70%);
+    
+    margin: 0px 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+}
+
+nav img {
+    width: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* cam select */
+
+.cam-select-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+    background-color: var(--text-color);
+    background-image: url(../image/fnaf1/camera-fnaf1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 365px;
+
+    border: white solid 3px;
+    border-radius: 5px;
+
+    height: 320px;
+    width: 370px;
+}
+
+.cam-select-container button {
+    color: white;
+    background-color: rgb(53, 53, 53);
+
+    border: white solid 2px;
+    
+    cursor: pointer;
+}
+
+.cam-select-container button:hover {
+    background-color: #8ba905;
+}
+
+#Freddy {
+    position: relative;
+    left: 100px;
+    top: 5px;
+}
+
+#Bonnie {
+    position: relative;
+    top: 65px;
+    right: 80px;
+}
+
+#Chica {
+    position: relative;
+    top: 195px;
+    left: 110px;
+}
+
+#Foxy {
+    position: relative;
+    top: 115px;
+    right: 180px;
+}
+
+#Gfreddy {
+    position: relative;
+    top: 205px;
+    left: 60px;
+}
+
+button.active {
+    background-color: #8ba905;
+}
+
+.camera {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+video {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    height: 320px;
+    width: 370px;
+}
+
+/* main */
+
+main {
+    margin-right: 420px;
+    filter: brightness(70%);
+}
+
+.animatronic-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.animatronic {
+    width: 400px;
+}
+
+.background {
+    background-image: url('../image/fnaf-logo.gif');
+}

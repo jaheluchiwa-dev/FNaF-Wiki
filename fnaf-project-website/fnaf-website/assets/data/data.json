@@ -1,0 +1,50 @@
+[
+    {
+        "fnaf": "FNAF 1",
+        "animatronic": "Freddy",
+        "jumpscare": "Freddy's Jumpscare",
+        "animatronic_image":"./assets/image/fnaf1/freddy.png",
+        "animatronic_jumpscare": "./assets/image/jumpscare/freddy-jumpscare.png",
+        "background": "./assets/image/boat.jpg",
+        "night": "He appears in the night : 3, 4, 5",
+        "description":"He's an animatronic bear, usually wearing a black top hat and bow tie. As the leader of the animatronics, Freddy roams the pizzeria at night. The player, acting as the night guard, must monitor Freddy and the other animatronics using security cameras to avoid getting caught. Freddy is known for his creepy smile and glowing eyes in the dark."
+        
+    },
+    {
+        "fnaf": "FNAF 1",
+        "animatronic": "Bonnie",
+        "jumpscare": "Bonnie's Jumpscare",
+        "animatronic_image": "./assets/image/fnaf1/bonnie.png",
+        "animatronic_jumpscare": "./assets/image/fnaf1/jumpscare/bonnie-jumpscare.png",
+        "night": "He appears in the night : 1, 2, 3, 4, 5",
+        "description": " He's an animatronic rabbit, usually purple, with a red bow tie and a guitar. Bonnie roams the pizzeria at night along with the other animatronics. The player, as the night guard, must track Bonnie's movements through security cameras to avoid being caught. Bonnie is known for his eerie appearance and sudden movements."
+
+    },
+    {
+        "fnaf": "FNAF 1",
+        "animatronic": "Chica",
+        "jumpscare": "Chica's Jumpscare",
+        "animatronic_image": "./assets/image/fnaf1/chica.png",
+        "night": "She appears in the night : 1, 2, 3, 4, 5",
+        "description": "She's an animatronic chicken, usually yellow, with a bib that says 'Let's Eat!' and carries a cupcake. Chica roams the pizzeria at night along with the other animatronics. The player, acting as the night guard, must keep an eye on Chica's movements through security cameras to avoid being caught. Chica is known for her unsettling stare and aggressive behavior."
+    },
+    {
+        "fnaf": "FNAF 1",
+        "animatronic": "Foxy",
+        "jumpscare": "Foxy's Jumpscare",
+        "animatronic_image": "./assets/image/fnaf1/foxy.png",
+        "animatronic_jumpscare": "./assets/image/jumpscare/foxy-jumpscare.png",
+        "night": "He appears in the night: 2, 3, 4, 5",
+        "description": " He's an animatronic fox, usually with a tattered appearance, an eye patch, and a hook for a hand. Foxy resides in Pirate Cove and becomes active at night, running down the hall to catch the player. The player, as the night guard, must monitor Foxy's movements and close the door quickly to avoid being caught. Foxy is known for his speed and distinctive, worn-out look."
+
+    },
+    {
+        "fnaf": "FNAF 1",
+        "animatronic": "Golden Freddy",
+        "jumpscare": "Golden Freddy's Jumpscare",
+        "animatronic_image": "./assets/image/fnaf1/golden-freddy.png",
+        "animatronic_jumpscare": "./assets/image/fnaf1/jumpscare/golden-freddy-jumpscare.png",
+        "night": "???",
+        "description": "He's an animatronic bear similar to Freddy Fazbear but is golden in color and often appears slumped or lifeless. Golden Freddy occasionally appears in the office, seemingly teleporting there without warning. When he does, he can cause a game crash or a jumpscare if the player doesn't react quickly. Golden Freddy is known for his enigmatic presence and unsettling, ghostly behavior."
+    }
+]
