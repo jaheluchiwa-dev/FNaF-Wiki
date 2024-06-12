@@ -72,25 +72,28 @@ a {
 
 .cam-select-container {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 10px;
+    right: 10px;
     
     background-color: var(--text-color);
     background-image: url(../image/fnaf1/camera-fnaf1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 365px;
+    background-size: 100%;
 
     border: white solid 3px;
     border-radius: 5px;
 
-    height: 320px;
-    width: 370px;
+    height: 45%;
+    width: 23%;
 }
 
 .cam-select-container button {
     color: white;
     background-color: rgb(53, 53, 53);
+
+    height: 12%;
+    width: 20%;
 
     border: white solid 2px;
     
@@ -103,32 +106,33 @@ a {
 
 #Freddy {
     position: relative;
-    left: 100px;
-    top: 5px;
+    top: 3%;
+    left: 25%;
 }
 
 #Bonnie {
     position: relative;
-    top: 65px;
-    right: 80px;
+    top: 15%;
+    right: 20%;
 }
 
 #Chica {
     position: relative;
-    top: 195px;
-    left: 110px;
+    top: 60%;
+    left: 28%;
 }
 
 #Foxy {
     position: relative;
-    top: 115px;
-    right: 180px;
+    top: 35%;
+    right: 55%;
 }
 
 #Gfreddy {
     position: relative;
-    top: 205px;
-    left: 60px;
+    width: 25%;
+    top: 70%;
+    left: 10%;
 }
 
 button.active {
@@ -138,15 +142,6 @@ button.active {
 .camera {
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-video {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-
-    height: 320px;
-    width: 370px;
 }
 
 /* main */
