@@ -1,0 +1,50 @@
+[
+    {
+        "game": "Five Night At Freddy's",
+        "description": "test",
+        "img": "./assets/image/FNAF-Game/FNAF1-image.png",
+        "realeased_date": "2014"
+    },
+    {
+        "game": "Five Night At Freddy's 2",
+        "description": "test",
+        "img": "./assets/image/FNAF-Game/FNAF2-image.jpg",
+        "realeased_date": "2014"
+    },
+    {
+        "game": "Five Night At Freddy's 3",
+        "description": "test",
+        "img": "./assets/image/FNAF-Game/FNAF3-image.jpg",
+        "realeased_date": "2015"
+    },
+    {
+        "game": "Five Night At Freddy's 4",
+        "description": "test",
+        "img": "./assets/image/FNAF-Game/FNAF4-image.jpg",
+        "realeased_date": "2015"
+    },
+    {
+        "game": "Five Nights at Freddy's: Sister Location",
+        "description": "test",
+        "img": "./assets/image/FNAF-Game/sister-location.png",
+        "realeased_date": "2016"
+    },
+    {
+        "game": "Freddy Fazbear's Pizzeria Simulator ",
+        "description": "test",
+        "img": "./assets/image/FNAF-Game/pizza-simulator.png",
+        "realeased_date": "2017"
+    },
+    {
+        "game": "Five Nights at Freddy's: Special Delivery ",
+        "description": "test",
+        "img": "./assets/image/FNAF-Game/FNAF-special-delivery.jpg",
+        "realeased_date": "2019"
+    },
+    {
+        "game": "Five Nights at Freddy's: Security Breach ",
+        "description": "test",
+        "img": "./assets/image/FNAF-Game/FNAF-security-breach.jpg",
+        "realeased_date": "2021"
+    }
+]
