@@ -68,3 +68,7 @@ a {
 nav img {
     width: 100px;
 }
+
+img {
+    cursor: pointer;
+}
