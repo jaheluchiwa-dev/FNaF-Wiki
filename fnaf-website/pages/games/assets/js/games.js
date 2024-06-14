@@ -8,6 +8,9 @@ const description = document.querySelector(".description");
 const gameBackground = document.querySelector(".background");
 const imageGame = document.querySelector(".game-image");
 
+//Sons de caméra
+const clickEffectArrow = document.createElement('audio')
+
 //Fetch
 fetch("./assets/data/games.json")
   .then(function (res) {
@@ -46,6 +49,9 @@ fetch("./assets/data/games.json")
       } else {
         compteur = data.length - 1;
       }
+
+      clickEffectArrow.src = "../../sounds/"
+
       updateImage();
       text();
     });
