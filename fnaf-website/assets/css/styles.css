@@ -92,16 +92,13 @@ a {
 }
 
 .cam-select-container {
-
     background-color: var(--text-color);
     background-image: url(../image/fnaf1/camera-fnaf1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-
     border: white solid 3px;
     border-radius: 5px;
-
     height: 48%;
     width: 100%;
 }

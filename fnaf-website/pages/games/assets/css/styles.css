@@ -129,6 +129,7 @@ img {
     background-image: url(../image/FNAF-Game/background-monitor-FNAF1.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 h1 {

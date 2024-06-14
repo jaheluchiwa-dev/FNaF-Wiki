@@ -9,7 +9,7 @@ const gameBackground = document.querySelector(".background");
 const imageGame = document.querySelector(".game-image");
 
 //Sons de caméra
-const clickEffectArrow = document.createElement('audio')
+const clickEffectArrow = document.createElement("audio");
 
 //Fetch
 fetch("./assets/data/games.json")
@@ -36,9 +36,10 @@ fetch("./assets/data/games.json")
     function updateImage() {
       imageGame.src = data[compteur].img;
 
-      console.log(data[compteur].gameBackground)
-       
-      gameBackground.style.backgroundImage = "url(" + data[compteur].background + ")";
+      console.log(data[compteur].gameBackground);
+
+      gameBackground.style.backgroundImage =
+        "url(" + data[compteur].background + ")";
     }
 
     // L'addEventListener click pour changer d'indice pour faire un caroussel
@@ -50,7 +51,8 @@ fetch("./assets/data/games.json")
         compteur = data.length - 1;
       }
 
-      clickEffectArrow.src = "../../sounds/"
+      clickEffectArrow.src = "../../assets/sounds/fnaf-open-camera-sound.mp3";
+      clickEffectArrow.play()
 
       updateImage();
       text();
@@ -63,6 +65,10 @@ fetch("./assets/data/games.json")
       } else {
         compteur = 0;
       }
+
+      clickEffectArrow.src = "../../assets/sounds/fnaf-open-camera-sound.mp3";
+      clickEffectArrow.play()
+
       updateImage();
       text();
     });

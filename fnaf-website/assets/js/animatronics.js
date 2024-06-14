@@ -1,9 +1,8 @@
 // Sélectionne les élément
 const animatronicImg = document.querySelector(".animatronic");
-const animatronicJumpscareImg = document.querySelector(".jumpscare");
 const animatronicProfile = document.querySelector(".animatronic-profile");
-const jumpscareProfile = document.querySelector(".jumpscare-profile");
 const bodyBackground = document.querySelector("body");
+const animatronicJumpscareImg = document.querySelector('.jumpscare')
 
 // Bouton des caméras
 const freddyBtn = document.getElementById("Freddy");
@@ -15,7 +14,6 @@ const goldenFreddyBtn = document.getElementById("Gfreddy");
 // Création des élément
 const description = document.createElement("p");
 const animatronicName = document.createElement("h1");
-const jumpscareAnimatronicName = document.createElement("h1");
 const fnaf = document.createElement("p");
 const nights = document.createElement("p");
 
@@ -26,6 +24,10 @@ const freddySound = document.createElement("audio");
 const kitchenNoice = document.createElement("audio");
 const foxyDumDum = document.createElement("audio");
 const bonnieMoans = document.createElement("audio");
+
+//Jumpscare
+
+const freddyJumpscare = document.createElement('audio')
 
 //Spamm It's Me
 const spamItsMe = document.createElement("p");
@@ -49,11 +51,18 @@ fetch("./assets/data/data.json")
     }
 
     // Affiche Freddy de base
-    description.textContent = data[0].description;
-    animatronicImg.src = data[0].animatronic_image;
-    animatronicName.textContent = data[0].animatronic
-    fnaf.textContent = data[0].fnaf;
-    nights.textContent = data[0].nights;
+    description.textContent = data.fnaf1[0].description;
+    animatronicImg.src = data.fnaf1[0].animatronic_image;
+    animatronicName.textContent = data.fnaf1[0].animatronic
+    nights.textContent = data.fnaf1[0].nights;
+
+    animatronicImg.addEventListener('click', function(e){
+      e.preventDefault()
+
+      animatronicJumpscareImg.src = data.fnaf1[0].animatronic_jumpscare
+
+      freddyJumpscare.src = "./assets/sounds/"
+    })
 
     animatronicImg.classList.add("freddy");
 
@@ -122,11 +131,10 @@ fetch("./assets/data/data.json")
       itsMeUpdate = setInterval(createIM, 100);
 
       // Informations
-      description.textContent = data[4].description;
-      animatronicImg.src = data[4].animatronic_image;
-      fnaf.textContent = data[4].fnaf;
-      nights.textContent = data[4].nights;
-      animatronicName.textContent = data[4].animatronic
+      description.textContent = data.fnaf1[4].description;
+      animatronicImg.src = data.fnaf1[4].animatronic_image;
+      nights.textContent = data.fnaf1[4].nights;
+      animatronicName.textContent = data.fnaf1[4].animatronic
 
       animatronicImg.classList.add("golden-freddy");
 
@@ -168,11 +176,10 @@ fetch("./assets/data/data.json")
       bonnieMoans.pause();
 
       // Informations
-      description.textContent = data[0].description;
-      animatronicImg.src = data[0].animatronic_image;
-      fnaf.textContent = data[0].fnaf;
-      nights.textContent = data[0].nights;
-      animatronicName.textContent = data[0].animatronic
+      description.textContent = data.fnaf1[0].description;
+      animatronicImg.src = data.fnaf1[0].animatronic_image;
+      nights.textContent = data.fnaf1[0].nights;
+      animatronicName.textContent = data.fnaf1[0].animatronic
 
       // Ajout - Remove des class
       freddyBtn.classList.add("active");
@@ -212,11 +219,10 @@ fetch("./assets/data/data.json")
       foxyDumDum.pause();
 
       // Informations
-      description.textContent = data[1].description;
-      animatronicImg.src = data[1].animatronic_image;
-      fnaf.textContent = data[1].fnaf;
-      nights.textContent = data[1].nights;
-      animatronicName.textContent = data[1].animatronic
+      description.textContent = data.fnaf1[1].description;
+      animatronicImg.src = data.fnaf1[1].animatronic_image;
+      nights.textContent = data.fnaf1[1].nights;
+      animatronicName.textContent = data.fnaf1[1].animatronic
 
       animatronicImg.classList.add("bonnie");
 
@@ -258,11 +264,10 @@ fetch("./assets/data/data.json")
       kitchenNoice.play();
 
       // Informations
-      description.textContent = data[2].description;
-      animatronicImg.src = data[2].animatronic_image;
-      fnaf.textContent = data[2].fnaf;
-      nights.textContent = data[2].nights;
-      animatronicName.textContent = data[2].animatronic
+      description.textContent = data.fnaf1[2].description;
+      animatronicImg.src = data.fnaf1[2].animatronic_image;
+      nights.textContent = data.fnaf1[2].nights;
+      animatronicName.textContent = data.fnaf1[2].animatronic
 
       // Ajout - Remove des class
       chicaBtn.classList.add("active");
@@ -302,11 +307,10 @@ fetch("./assets/data/data.json")
       bonnieMoans.pause();
 
       // Informations
-      description.textContent = data[3].description;
-      animatronicImg.src = data[3].animatronic_image;
-      fnaf.textContent = data[3].fnaf;
-      nights.textContent = data[3].nights;
-      animatronicName.textContent = data[3].animatronic
+      description.textContent = data.fnaf1[3].description;
+      animatronicImg.src = data.fnaf1[3].animatronic_image;
+      nights.textContent = data.fnaf1[3].nights;
+      animatronicName.textContent = data.fnaf1[3].animatronic
 
       animatronicImg.classList.add("foxy");
 
@@ -332,15 +336,9 @@ fetch("./assets/data/data.json")
     fnaf.classList.add("fnaf");
     nights.classList.add("nights");
     animatronicName.classList.add("animatronic-name");
-    jumpscareAnimatronicName.classList.add("jumpscare-animatronic-title");
 
     // Ajouter au document
     animatronicProfile.appendChild(animatronicName);
     animatronicProfile.appendChild(nights);
     animatronicProfile.appendChild(description);
-
-    animatronicProfile.appendChild(jumpscareProfile);
-
-    jumpscareProfile.appendChild(jumpscareAnimatronicName);
-    jumpscareProfile.appendChild(animatronicJumpscareImg);
   });
