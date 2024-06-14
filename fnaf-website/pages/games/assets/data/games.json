@@ -31,25 +31,28 @@
     "game": "Five Nights at Freddy's: Sister Location",
     "description": "tesFive Nights at Freddy's: Sister Location presents a departure from its predecessors, placing players in a futuristic underground facility rather than the familiar pizzeria setting. As a technician, players navigate through a series of meticulously designed rooms, each housing its own set of animatronic horrors. The game introduces new gameplay mechanics such as crawling through vents and managing power resources, adding layers of strategic depth to the survival horror experience. FNAF SL enriches the series' lore by unveiling dark secrets about the animatronics' creation and purpose, offering a chilling and immersive exploration of the franchise's sinister universe.t",
     "img": "./assets/image/FNAF-Game/sister-location.png",
+    "background": "./assets/image/FNAF-Game/sister-location-FNAF.webp",
     "realeased_date": "2016"
   },
   {
     "game": "Freddy Fazbear's Pizzeria Simulator ",
     "description": "Five Nights at Freddy's 6, subtitled presents a unique blend of business simulation and survival horror. Players assume the role of a business owner tasked with managing and expanding their own Freddy Fazbear's Pizza franchise. However, beneath the surface of this seemingly innocuous venture lies a sinister undercurrent. As players progress through the game, they must balance day-to-day management tasks with fending off animatronic threats that lurk in the restaurant's dark corners. FNAF 6 deepens the series' narrative by tying together loose ends from previous games and culminating in a suspenseful conclusion that uncovers the chilling truths behind Freddy Fazbear's haunted legacy.",
     "img": "./assets/image/FNAF-Game/pizza-simulator.png",
+    "background": "./assets/image/FNAF-Game/pizzeria-simulator-FNAF.webp",
     "realeased_date": "2017"
   },
   {
     "game": "Five Nights at Freddy's: Special Delivery ",
     "description": "Five Nights at Freddy's: Special Delivery shifts the terror to augmented reality (AR), blending the iconic animatronic horror with real-world environments. Players experience the thrill of encountering animatronics through their mobile devices, utilizing AR technology to track, capture, and survive encounters with these menacing creatures. The game incorporates unique gameplay mechanics such as collecting parts and assembling animatronics, while also introducing new characters and challenges. FNAF Special Delivery expands the series' narrative by exploring the repercussions of animatronics invading the real world, offering a hauntingly immersive experience for fans of the franchise.",
-    "img": "./assets/image/FNAF-Game/FNAF-Game/game-ar.png",
-    "background": "./assets/image/FNAF-Game/game-ar.png",
+    "img": "./assets/image/FNAF-Game/FNAF-Game/FNAF-special-delivery.jpg",
+    "background": "./assets/image/FNAF-Game/FNAF-Ar-background.jpg",
     "realeased_date": "2019"
   },
   {
     "game": "Five Nights at Freddy's: Security Breach ",
     "description": "Five Nights at Freddy's: Security Breach represents a significant evolution in the series, moving players into a vast and immersive shopping mall setting called Freddy Fazbear's Mega Pizzaplex. Here, players navigate as a new protagonist, venturing through various themed areas while evading both classic and new animatronic threats. The game introduces expanded gameplay mechanics, such as exploration, puzzle-solving, and stealth elements, adding depth to the survival horror experience. FNAF SD promises to delve deeper into the franchise's lore, offering a fresh perspective on the haunting mysteries and dangers lurking within the expansive and eerie world of Freddy Fazbear's Pizza.",
     "img": "./assets/image/FNAF-Game/FNAF-security-breach.jpg",
+    "background": "./assets/image/FNAF-Game/security-breach.webp",
     "realeased_date": "2021"
   }
 ]
