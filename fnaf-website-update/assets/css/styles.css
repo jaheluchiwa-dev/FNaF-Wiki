@@ -11,7 +11,7 @@
     --text-color: #000000;
     --text-color-2: #fff;
     --highlight-color: #ff0000;
-    --nav-background-color: #7e3b00; 
+    --nav-background-color: #7e3b00;
 }
 
 * {
@@ -38,9 +38,9 @@ header {
     margin-bottom: 15px;
 
     background-color: var(--nav-background-color);
-    
+
     box-shadow: inset rgba(0, 0, 0, 1) 0px 10px 40px 0px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +50,7 @@ nav {
     width: 500px;
 
     filter: brightness(70%);
-    
+
     margin: 0px 100px;
 
     display: flex;
@@ -71,11 +71,28 @@ a {
 
 /* cam select */
 
-.cam-select-container {
+.ds {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    
+
+    height: 90%;
+    width: 23%;
+}
+
+.animatronic-img {
+    display: flex;
+    justify-content: center;
+
+    height: 50%;
+}
+
+.animatronic-img img {
+    width: auto;
+}
+
+.cam-select-container {
+
     background-color: var(--text-color);
     background-image: url(../image/fnaf1/camera-fnaf1.png);
     background-repeat: no-repeat;
@@ -85,8 +102,8 @@ a {
     border: white solid 3px;
     border-radius: 5px;
 
-    height: 45%;
-    width: 23%;
+    height: 48%;
+    width: 100%;
 }
 
 .cam-select-container button {
@@ -99,7 +116,7 @@ a {
     min-width: 50px;
 
     border: white solid 2px;
-    
+
     cursor: pointer;
 
     font-size: 100%;
@@ -166,10 +183,7 @@ main {
 }
 
 .animatronic {
-    width: 15%;
-
-    position: fixed;
-    right: 0;
+    width: 60%;
 }
 
 .background {
@@ -190,15 +204,75 @@ main {
     background-size: cover;
 }
 
+.chica-background {
+    background-image: url(../image/chica-cam.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foxy-background {
+    background-image: url(../image/foxy-cam.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gf-background {
+    background-image: url(../image/golden-freddy-cam.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .its-me {
     position: absolute;
+    cursor: none;
+    opacity: 0.5;
 }
 
 .description {
     color: var(--text-color-2);
 }
 
-.its-me {
-    cursor: none;
-    opacity: 0.5;
+h1 {
+    height: 8vh;
+
+    margin: 0;
+
+    font-size: 3em;
+}
+
+p {
+    margin: 0;
+}
+
+.nights {
+    margin-bottom: 35px;
+
+    font-size: 1.5em;
+}
+
+.description {
+    color: var(--text-color-2);
+    overflow: hidden;
+    white-space: pre-wrap; /* Permet au texte de retourner à la ligne */
+    border-right: .15em solid white; /* Effet de curseur de machine à écrire */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0; /* Commence sans largeur (invisible) */
+    }
+    to {
+        width: 100%; /* Révéler complètement le texte */
+    }
+}
+
+/* Effet de curseur de machine à écrire */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent; /* Couleur de curseur clignotant */
+    }
+    50% {
+        border-color: transparent; /* Couleur de curseur clignotant */
+    }
 }
