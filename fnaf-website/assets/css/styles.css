@@ -19,6 +19,10 @@
     font-size: 30px;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     color: var(--text-color-2);
     background-color: rgb(44, 44, 44);
@@ -166,7 +170,6 @@ button.active {
 /* main */
 
 main {
-    min-height: 100vh;
     margin-right: 25%;
     margin-left: 2%;
     filter: brightness(70%);
