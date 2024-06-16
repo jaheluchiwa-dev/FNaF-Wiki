@@ -1,8 +1,8 @@
 // Sélectionne les élément
 const animatronicImg = document.querySelector(".animatronic");
+const jumpcareImg = document.querySelector(".jumpscare")
 const animatronicProfile = document.querySelector(".animatronic-profile");
 const bodyBackground = document.querySelector("body");
-const animatronicJumpscareImg = document.querySelector('.jumpscare')
 
 // Bouton des caméras
 const freddyBtn = document.getElementById("Freddy");
@@ -59,11 +59,10 @@ fetch("./assets/data/data.json")
     animatronicImg.addEventListener('click', function(e){
       e.preventDefault()
 
-      animatronicJumpscareImg.src = data.fnaf1[0].animatronic_jumpscare
-
-      freddyJumpscare.src = "./assets/sounds/"
+      jumpcareImg.src = data.fnaf1[0].animatronic_jumpscare
     })
 
+    jumpcareImg.classList.remove("jumpscare")
     animatronicImg.classList.add("freddy");
 
     removeItsMe();
@@ -80,6 +79,12 @@ fetch("./assets/data/data.json")
       // Jouer le son de Golden Freddy
       goldenFreddySound.src = "./assets/sounds/golden-freddy-it's-me-sound.mp3";
       goldenFreddySound.play();
+
+      animatronicImg.addEventListener('click', function(e){
+        e.preventDefault()
+  
+        jumpcareImg.src = data.fnaf1[4].animatronic_jumpscare
+      })
 
       // Arrêter le son de Freddy
       freddySound.pause();
@@ -136,6 +141,7 @@ fetch("./assets/data/data.json")
       nights.textContent = data.fnaf1[4].nights;
       animatronicName.textContent = data.fnaf1[4].animatronic
 
+      jumpcareImg.classList.remove("jumpscare")
       animatronicImg.classList.add("golden-freddy");
 
       // Ajout - Remove des class
@@ -183,6 +189,7 @@ fetch("./assets/data/data.json")
 
       // Ajout - Remove des class
       freddyBtn.classList.add("active");
+      jumpcareImg.classList.remove("jumpscare")
 
       bodyBackground.classList.add("freddy-background");
 
@@ -223,6 +230,13 @@ fetch("./assets/data/data.json")
       animatronicImg.src = data.fnaf1[1].animatronic_image;
       nights.textContent = data.fnaf1[1].nights;
       animatronicName.textContent = data.fnaf1[1].animatronic
+
+      animatronicImg.addEventListener('click', function(e){
+        e.preventDefault()
+  
+        jumpcareImg.src = data.fnaf1[1].animatronic_jumpscare
+        jumpcareImg.classList.remove("jumpscare")
+      })
 
       animatronicImg.classList.add("bonnie");
 
