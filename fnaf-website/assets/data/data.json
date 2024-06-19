@@ -28,7 +28,7 @@
             "animatronic": "Foxy",
             "jumpscare": "Foxy's Jumpscare",
             "animatronic_image": "./assets/image/fnaf1/foxy.png",
-            "animatronic_jumpscare": "./assets/image/jumpscare/foxy-jumpscare.png",
+            "animatronic_jumpscare": "./assets/image/fnaf1/jumpscare/foxy-jumpscare.png",
             "nights": "Appears in the night: 2, 3, 4, 5",
             "description": "Foxy is an animatronic fox with a tattered appearance, an eye patch, and a hook for a hand. He resides in Pirate Cove, hidden behind a curtain. Foxy is unique among the animatronics due to his speed and behavior. He becomes active sporadically and will sprint down the hall towards the player's office if not monitored frequently. The player must check on Foxy regularly using the cameras to slow his progress. When Foxy runs, the player must quickly close the left door to avoid his jumpscare. His sudden charges and the need for constant surveillance make Foxy a particularly stressful and dangerous animatronic."
         },

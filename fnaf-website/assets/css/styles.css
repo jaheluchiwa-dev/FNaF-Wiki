@@ -75,24 +75,11 @@ a {
 
 /* cam select */
 
-.ds {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-
-    height: 90%;
-    width: 23%;
-}
-
 .animatronic-img {
     display: flex;
     justify-content: center;
 
-    height: 50%;
-}
-
-.animatronic-img img {
-    width: auto;
+    width: fit-content;
 }
 
 .cam-select-container {
@@ -105,6 +92,13 @@ a {
     border-radius: 5px;
     height: 48%;
     width: 100%;
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    height: 45%;
+    width: 23%;
 }
 
 .cam-select-container button {
@@ -170,20 +164,27 @@ button.active {
 /* main */
 
 main {
-    margin-right: 25%;
-    margin-left: 2%;
     filter: brightness(70%);
     color: var(--text-color-2);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 2%;
+    margin-right: 7%;
 }
 
 .animatronic-profile {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    width: 75%;
 }
 
 .animatronic {
-    width: 60%;
+    height: 350px;
 }
 
 .background {
