@@ -82,78 +82,25 @@ a {
     width: fit-content;
 }
 
-.cam-select-container {
-    background-color: var(--text-color);
-    background-image: url(../image/fnaf1/camera-fnaf1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    border: white solid 3px;
-    border-radius: 5px;
-    height: 48%;
-    width: 100%;
-
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-
-    height: 45%;
-    width: 23%;
+.arrow {
+    border: solid white;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
 }
 
-.cam-select-container button {
-    color: white;
-    background-color: rgb(53, 53, 53);
-
-    height: 12%;
-    width: 20%;
-
-    min-width: 50px;
-
-    border: white solid 2px;
-
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
     cursor: pointer;
-
-    font-size: 100%;
 }
 
-.cam-select-container button:hover {
-    background-color: #8ba905;
-}
-
-#Freddy {
-    position: relative;
-    top: 3%;
-    left: 25%;
-}
-
-#Bonnie {
-    position: relative;
-    top: 15%;
-    right: 20%;
-}
-
-#Chica {
-    position: relative;
-    top: 60%;
-    left: 28%;
-}
-
-#Foxy {
-    position: relative;
-    top: 35%;
-    right: 55%;
-}
-
-#Gfreddy {
-    position: relative;
-    width: 25%;
-    top: 70%;
-    left: 10%;
-}
-
-button.active {
-    background-color: #8ba905;
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    cursor: pointer;
 }
 
 .camera {
@@ -188,37 +135,7 @@ main {
 }
 
 .background {
-    background-image: url(../image/freddy-cam.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.freddy-background {
-    background-image: url(../image/freddy-cam.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bonnie-background {
-    background-image: url(../image/bonnie-cam.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.chica-background {
-    background-image: url(../image/chica-cam.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.foxy-background {
-    background-image: url(../image/foxy-cam.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.gf-background {
-    background-image: url(../image/golden-freddy-cam.gif);
+    background-image: url(../image/animatronics/animatronics-cam/freddy-cam.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -254,26 +171,36 @@ p {
 .description {
     color: var(--text-color-2);
     overflow: hidden;
-    white-space: pre-wrap; /* Permet au texte de retourner à la ligne */
-    border-right: .15em solid white; /* Effet de curseur de machine à écrire */
+    white-space: pre-wrap;
+    /* Permet au texte de retourner à la ligne */
+    border-right: .15em solid white;
+    /* Effet de curseur de machine à écrire */
     animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
     from {
-        width: 0; /* Commence sans largeur (invisible) */
+        width: 0;
+        /* Commence sans largeur (invisible) */
     }
+
     to {
-        width: 100%; /* Révéler complètement le texte */
+        width: 100%;
+        /* Révéler complètement le texte */
     }
 }
 
 /* Effet de curseur de machine à écrire */
 @keyframes blink-caret {
-    from, to {
-        border-color: transparent; /* Couleur de curseur clignotant */
+
+    from,
+    to {
+        border-color: transparent;
+        /* Couleur de curseur clignotant */
     }
+
     50% {
-        border-color: transparent; /* Couleur de curseur clignotant */
+        border-color: transparent;
+        /* Couleur de curseur clignotant */
     }
 }
