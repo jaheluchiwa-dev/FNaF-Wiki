@@ -106,6 +106,7 @@ fetch("./assets/data/data.json")
     fnaf.classList.add("fnaf");
     nights.classList.add("nights");
     animatronicName.classList.add("animatronic-name");
+    jumpcareImg.classList.add('jumpscare-image')
 
     // Ajouter au document
     animatronicProfile.appendChild(animatronicName);
