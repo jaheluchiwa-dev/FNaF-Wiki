@@ -7,7 +7,7 @@ const realeasedDate = document.querySelector(".realeased-date");
 const description = document.querySelector(".description");
 const gameBackground = document.querySelector(".background");
 const imageGame = document.querySelector(".game-image");
-const officalGame = document.querySelector('.og')
+const officialGame = document.querySelector('.og')
 
 // Update Du Sons
 const changeMusicGames = document.querySelector('audio')
@@ -27,6 +27,8 @@ fetch("./assets/data/games.json")
     gameName.textContent = data[0].game;
     realeasedDate.textContent = data[0].realeased_date;
     changeMusicGames.src = data[0].sounds
+    officialGame.textContent = data[0].official_game
+
 
     let compteur = 0;
 
@@ -35,6 +37,7 @@ fetch("./assets/data/games.json")
       description.textContent = data[compteur].description;
       gameName.textContent = data[compteur].game;
       realeasedDate.textContent = data[compteur].realeased_date;
+      officialGame.textContent = data[compteur].official_game
     }
 
     function updateImage() {
