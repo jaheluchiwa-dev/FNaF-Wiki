@@ -30,6 +30,8 @@ fetch("./assets/data/data.json")
   .then(function (data) {
     console.log(data);
 
+    let itsMeUpdate;
+
     // Fonction pour enlever les Its-me
     function removeItsMe() {
       const itsMeElements = document.querySelectorAll(".its-me");
@@ -71,7 +73,6 @@ fetch("./assets/data/data.json")
 
     createIM();
     // Un interval tout les 100 miliseconds 50 "ItsMe" apparaissent
-    let itsMeUpdate;
     itsMeUpdate = setInterval(createIM, 100);
 
     // Quand tu cliques sur l'image de l'animatronique ça lance un jumpscare
