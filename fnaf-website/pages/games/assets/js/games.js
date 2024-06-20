@@ -7,11 +7,10 @@ const realeasedDate = document.querySelector(".realeased-date");
 const description = document.querySelector(".description");
 const gameBackground = document.querySelector(".background");
 const imageGame = document.querySelector(".game-image");
+const officalGame = document.querySelector('.og')
 
 // Update Du Sons
 const changeMusicGames = document.querySelector('audio')
-
-//Sons de caméra
 const clickEffectArrow = document.createElement("audio");
 
 
