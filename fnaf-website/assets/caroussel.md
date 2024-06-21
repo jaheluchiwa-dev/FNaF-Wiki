@@ -1,3 +1,5 @@
+```javascript
+
 let compteur = 0;
 
 //Changer les images dynamiquement
@@ -15,8 +17,9 @@ function text() {
   fnaf.textContent = data[compteur].fnaf;
   nights.textContent = data[compteur].night;
 }
+
 //Pour changer dynamiquement les animatroniques à droite
-/* function keyRight() {
+ function keyRight() {
   if (compteur > 0) {
     compteur--;
   } else {
@@ -24,7 +27,6 @@ function text() {
   }
   text();
   updateImage();
-
 }
 
 //Pour changer dynamiquement les animatroniques à droite
@@ -46,4 +48,5 @@ document.addEventListener("keydown", function (event) {
     keyRight();
   }
 });
-*/
+
+```

@@ -51,10 +51,10 @@ fetch("./assets/data/data.json")
     }
 
     // Affiche Freddy de base
-    description.textContent = data.fnaf1[0].description;
-    animatronicImg.src = data.fnaf1[0].animatronic_image;
-    animatronicName.textContent = data.fnaf1[0].animatronic
-    nights.textContent = data.fnaf1[0].nights;
+    description.textContent = data.fnaf[0].description;
+    animatronicImg.src = data.fnaf[0].animatronic_image;
+    animatronicName.textContent = data.fnaf[0].animatronic
+    nights.textContent = data.fnaf[0].nights;
 
     jumpcareImg.classList.remove("jumpscare")
     animatronicImg.classList.add("freddy");
@@ -77,7 +77,7 @@ fetch("./assets/data/data.json")
       animatronicImg.addEventListener('click', function(e){
         e.preventDefault()
   
-        jumpcareImg.src = data.fnaf1[4].animatronic_jumpscare
+        jumpcareImg.src = data.fnaf[4].animatronic_jumpscare
       })
 
       // Arrêter le son de Freddy
@@ -130,10 +130,10 @@ fetch("./assets/data/data.json")
       itsMeUpdate = setInterval(createIM, 100);
 
       // Informations
-      description.textContent = data.fnaf1[4].description;
-      animatronicImg.src = data.fnaf1[4].animatronic_image;
-      nights.textContent = data.fnaf1[4].nights;
-      animatronicName.textContent = data.fnaf1[4].animatronic
+      description.textContent = data.fnaf[4].description;
+      animatronicImg.src = data.fnaf[4].animatronic_image;
+      nights.textContent = data.fnaf[4].nights;
+      animatronicName.textContent = data.fnaf[4].animatronic
 
       jumpcareImg.classList.remove("jumpscare")
       animatronicImg.classList.add("golden-freddy");
@@ -176,15 +176,15 @@ fetch("./assets/data/data.json")
       bonnieMoans.pause();
 
       // Informations
-      description.textContent = data.fnaf1[0].description;
-      animatronicImg.src = data.fnaf1[0].animatronic_image;
-      nights.textContent = data.fnaf1[0].nights;
-      animatronicName.textContent = data.fnaf1[0].animatronic
+      description.textContent = data.fnaf[0].description;
+      animatronicImg.src = data.fnaf[0].animatronic_image;
+      nights.textContent = data.fnaf[0].nights;
+      animatronicName.textContent = data.fnaf[0].animatronic
 
       animatronicImg.addEventListener('click', function(e){
         e.preventDefault()
   
-        jumpcareImg.src = data.fnaf1[0].animatronic_jumpscare
+        jumpcareImg.src = data.fnaf[0].animatronic_jumpscare
       })
 
       // Ajout - Remove des class
@@ -226,15 +226,15 @@ fetch("./assets/data/data.json")
       foxyDumDum.pause();
 
       // Informations
-      description.textContent = data.fnaf1[1].description;
-      animatronicImg.src = data.fnaf1[1].animatronic_image;
-      nights.textContent = data.fnaf1[1].nights;
-      animatronicName.textContent = data.fnaf1[1].animatronic
+      description.textContent = data.fnaf[1].description;
+      animatronicImg.src = data.fnaf[1].animatronic_image;
+      nights.textContent = data.fnaf[1].nights;
+      animatronicName.textContent = data.fnaf[1].animatronic
 
       animatronicImg.addEventListener('click', function(e){
         e.preventDefault()
   
-        jumpcareImg.src = data.fnaf1[1].animatronic_jumpscare
+        jumpcareImg.src = data.fnaf[1].animatronic_jumpscare
 
       })
 
@@ -278,15 +278,15 @@ fetch("./assets/data/data.json")
       kitchenNoice.play();
 
       // Informations
-      description.textContent = data.fnaf1[2].description;
-      animatronicImg.src = data.fnaf1[2].animatronic_image;
-      nights.textContent = data.fnaf1[2].nights;
-      animatronicName.textContent = data.fnaf1[2].animatronic
+      description.textContent = data.fnaf[2].description;
+      animatronicImg.src = data.fnaf[2].animatronic_image;
+      nights.textContent = data.fnaf[2].nights;
+      animatronicName.textContent = data.fnaf[2].animatronic
 
       animatronicImg.addEventListener('click', function(e){
         e.preventDefault()
   
-        jumpcareImg.src = data.fnaf1[2].animatronic_jumpscare
+        jumpcareImg.src = data.fnaf[2].animatronic_jumpscare
       })
 
       // Ajout - Remove des class
@@ -327,15 +327,15 @@ fetch("./assets/data/data.json")
       bonnieMoans.pause();
 
       // Informations
-      description.textContent = data.fnaf1[3].description;
-      animatronicImg.src = data.fnaf1[3].animatronic_image;
-      nights.textContent = data.fnaf1[3].nights;
-      animatronicName.textContent = data.fnaf1[3].animatronic
+      description.textContent = data.fnaf[3].description;
+      animatronicImg.src = data.fnaf[3].animatronic_image;
+      nights.textContent = data.fnaf[3].nights;
+      animatronicName.textContent = data.fnaf[3].animatronic
       
       animatronicImg.addEventListener('click', function(e){
         e.preventDefault()
   
-        jumpcareImg.src = data.fnaf1[3].animatronic_jumpscare
+        jumpcareImg.src = data.fnaf[3].animatronic_jumpscare
       })
 
       animatronicImg.classList.add("foxy");
