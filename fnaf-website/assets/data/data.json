@@ -1,49 +1,3 @@
-<<<<<<< HEAD
-{
-    "fnaf": [
-        {
-            "animatronic": "Freddy",
-            "jumpscare": "Freddy's Jumpscare",
-            "animatronic_image": "./assets/image/fnaf1/freddy.png",
-            "animatronic_jumpscare": "./assets/image/fnaf1/jumpscare/freddy-jumpscare.png",
-            "nights": "Appears in the night: 3, 4, 5",
-            "description": "Freddy is a large animatronic bear with a worn, plush brown fur and lifeless, blue eyes. His face features a broad snout with a black nose and a perpetual smile that seems to shift subtly. Freddy wears a small, tilted black top hat and bow tie, adding to his eerie formal appearance. His movements are methodical, starting on stage and gradually approaching the player's office through less monitored paths. Freddy's strategic behavior in gameplay requires players to manage power, monitor cameras, and listen for audio cues to prevent him from entering their office."
-        },
-        {
-            "animatronic": "Bonnie",
-            "jumpscare": "Bonnie's Jumpscare",
-            "animatronic_image": "./assets/image/fnaf1/bonnie.png",
-            "animatronic_jumpscare": "./assets/image/fnaf1/jumpscare/bonnie-jumpscare.png",
-            "nights": "Appears in the night: 1, 2, 3, 4, 5",
-            "description": "Bonnie is a large, purple animatronic rabbit with a red bow tie and a guitar. His appearance is both friendly and unnerving, with wide, staring eyes and an ever-present smile. Bonnie's movements are methodical and deliberate as he roams the pizzeria at night. He often approaches the player's office from the left side, and can be seen in the hallway or appearing suddenly at the door. The player must monitor Bonnie's progress using security cameras and close the door to avoid his jumpscare. Bonnie's sudden and aggressive behavior adds to the game's tension, making him a persistent threat throughout the night."
-        },
-        {
-            "animatronic": "Chica",
-            "jumpscare": "Chica's Jumpscare",
-            "animatronic_image": "./assets/image/fnaf1/chica.png",
-            "animatronic_jumpscare": "./assets/image/fnaf1/jumpscare/chica-jumpscare.png",
-            "nights": "Appears in the night: 1, 2, 3, 4, 5",
-            "description": "Chica is a yellow animatronic chicken with a bib that says 'Let's Eat!' and often carries a cupcake. Her bright, cheerful design contrasts sharply with her nocturnal behavior. Chica roams the pizzeria, approaching the player's office from the right side. She can be seen in the kitchen, hallway, or at the doorway, peering inside. The player must keep a close eye on her movements through the security cameras and shut the door to prevent her from entering. Chica's aggressive and unpredictable actions make her a significant threat, heightening the player's anxiety and vigilance."
-        },
-        {
-            "animatronic": "Foxy",
-            "jumpscare": "Foxy's Jumpscare",
-            "animatronic_image": "./assets/image/fnaf1/foxy.png",
-            "animatronic_jumpscare": "./assets/image/fnaf1/jumpscare/foxy-jumpscare.png",
-            "nights": "Appears in the night: 2, 3, 4, 5",
-            "description": "Foxy is an animatronic fox with a tattered appearance, an eye patch, and a hook for a hand. He resides in Pirate Cove, hidden behind a curtain. Foxy is unique among the animatronics due to his speed and behavior. He becomes active sporadically and will sprint down the hall towards the player's office if not monitored frequently. The player must check on Foxy regularly using the cameras to slow his progress. When Foxy runs, the player must quickly close the left door to avoid his jumpscare. His sudden charges and the need for constant surveillance make Foxy a particularly stressful and dangerous animatronic."
-        },
-        {
-            "animatronic": "Golden Freddy",
-            "jumpscare": "Golden Freddy's Jumpscare",
-            "animatronic_image": "./assets/image/fnaf1/golden-freddy.png",
-            "animatronic_jumpscare": "./assets/image/fnaf1/jumpscare/golden-freddy-jumpscare.png",
-            "nights": "Appears in the night: ???",
-            "description": "Golden Freddy is an animatronic bear similar to Freddy Fazbear but golden in color and often appears slumped or lifeless. His presence is rare and unpredictable, adding to his mysterious and eerie nature. Golden Freddy can suddenly appear in the player's office without warning, usually indicated by a poster change on the wall. If the player does not quickly pull up the monitor or switch cameras, Golden Freddy will cause the game to crash or initiate a jumpscare. His enigmatic and ghostly behavior makes Golden Freddy one of the most unsettling and unpredictable animatronics in the game."
-        }
-    ]
-}
-=======
 [
     {
         "animatronic": "Freddy",
@@ -96,4 +50,3 @@
         "jumpscare_audio": "./assets/sounds/jumpscare/golden-freddy-scream.mp3"
     }
 ]
->>>>>>> d4e7460f2f8b1af76810c0841cde07ce72e2c1f9
