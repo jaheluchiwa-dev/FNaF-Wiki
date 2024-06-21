@@ -5,7 +5,8 @@
     "img": "./assets/image/FNAF-Game/FNAF1-image.png",
     "background": "./assets/image/FNAF-Game/background-monitor-FNAF1.gif",
     "realeased_date": "2014",
-    "sounds": "./assets/sounds/fnaf-1-light-sound.mp3"
+    "sounds": "./assets/sounds/fnaf-1-light-sound.mp3",
+    "official_game": "Official Game"
   },
   {
     "game": "Five Night At Freddy's 2",
@@ -13,7 +14,8 @@
     "img": "./assets/image/FNAF-Game/FNAF2-image.jpg",
     "background": "./assets/image/FNAF-Game/background-monitor-FNAF2.gif",
     "realeased_date": "2014",
-    "sounds": "./assets/sounds/puppet-music.mp3"
+    "sounds": "./assets/sounds/puppet-music.mp3",
+    "official_game": "Official Game"
   },
   {
     "game": "Five Night At Freddy's 3",
@@ -21,7 +23,8 @@
     "img": "./assets/image/FNAF-Game/FNAF3-image.jpg",
     "background": "./assets/image/FNAF-Game/background-monitor-FNAF3.png",
     "realeased_date": "2015",
-    "sounds": "assets/sounds/fnaf3-ambiance.mp3"
+    "sounds": "assets/sounds/fnaf3-ambiance.mp3",
+    "official_game": "Official Game"
   },
   {
     "game": "Five Night At Freddy's 4",
@@ -29,7 +32,26 @@
     "img": "./assets/image/FNAF-Game/FNAF4-image.jpg",
     "realeased_date": "2015",
     "background": "./assets/image/FNAF-Game/background-room-FNAF4.gif",
-    "sounds": "assets/sounds/fnaf4ambiance.mp3"
+    "sounds": "assets/sounds/fnaf4ambiance.mp3",
+    "official_game": "Official Game"
+  },
+  {
+    "game": "Five Nights at Candy's",
+    "description": "Five Nights at Freddy's 4 shifts the gameplay to a different perspective, placing players in the shoes of a child experiencing terrifying nightmares haunted by animatronics. Set in the protagonist's bedroom, the game centers on survival by listening for cues and using a flashlight to fend off animatronic threats lurking in the darkness. With a heightened sense of claustrophobia and fear, players must endure five nights of escalating tension while unraveling the eerie connection between the child's nightmares and the haunting legacy of Freddy Fazbear's Pizza.",
+    "img": "./assets/image/FNAF-Game/fnaf-candy.png",
+    "realeased_date": "2015",
+    "background": "./assets/image/FNAF-Game/candy-background.gif",
+    "sounds": "assets/sounds/fnaf-candy-ambiant.mp3",
+    "official_game": "Fan Game"
+  },
+  {
+    "game": "The Joy of Creation",
+    "description": "Five Nights at Freddy's 4 shifts the gameplay to a different perspective, placing players in the shoes of a child experiencing terrifying nightmares haunted by animatronics. Set in the protagonist's bedroom, the game centers on survival by listening for cues and using a flashlight to fend off animatronic threats lurking in the darkness. With a heightened sense of claustrophobia and fear, players must endure five nights of escalating tension while unraveling the eerie connection between the child's nightmares and the haunting legacy of Freddy Fazbear's Pizza.",
+    "img": "./assets/image/FNAF-Game/fnaf-tojc.jpg",
+    "realeased_date": "2015",
+    "background": "./assets/image/FNAF-Game/tojc-background.jpg",
+    "sounds": "assets/sounds/tojc-theme.mp3",
+    "official_game": "Fan Game"
   },
   {
     "game": "Five Nights at Freddy's: Sister Location",
@@ -37,7 +59,8 @@
     "img": "./assets/image/FNAF-Game/sister-location.png",
     "background": "./assets/image/FNAF-Game/sister-location-FNAF.webp",
     "realeased_date": "2016",
-    "sounds": "assets/sounds/sl-music.mp3"
+    "sounds": "assets/sounds/sl-music.mp3",
+    "official_game": "Official Game"
   },
   {
     "game": "Freddy Fazbear's Pizzeria Simulator ",
@@ -45,7 +68,17 @@
     "img": "./assets/image/FNAF-Game/fnaf6logo.webp",
     "background": "./assets/image/FNAF-Game/pizzeria-simulator-FNAF.webp",
     "realeased_date": "2017",
-    "sounds": "assets/sounds/fnaf6-music.mp3"
+    "sounds": "assets/sounds/fnaf6-music.mp3",
+    "official_game": "Official Game"
+  },
+  {
+    "game": "Glitched Attraction",
+    "description": "tesFive Nights at Freddy's: Sister Location presents a departure from its predecessors, placing players in a futuristic underground facility rather than the familiar pizzeria setting. As a technician, players navigate through a series of meticulously designed rooms, each housing its own set of animatronic horrors. The game introduces new gameplay mechanics such as crawling through vents and managing power resources, adding layers of strategic depth to the survival horror experience. FNAF SL enriches the series' lore by unveiling dark secrets about the animatronics' creation and purpose, offering a chilling and immersive exploration of the franchise's sinister universe.t",
+    "img": "./assets/image/FNAF-Game/fnaf-glitched-attraction.webp",
+    "background": "./assets/image/FNAF-Game/glitched-attraction-background.webp",
+    "realeased_date": "2018",
+    "sounds": "assets/sounds/glitched-attraction-music.mp3",
+    "official_game": "Fan Game"
   },
   {
     "game": "Five Nights at Freddy's: Special Delivery ",
@@ -53,7 +86,8 @@
     "img": "assets/image/FNAF-Game/FNAF-special-delivery.jpg",
     "background": "./assets/image/FNAF-Game/FNAF-Ar-background.jpg",
     "realeased_date": "2019",
-    "sounds": "assets/sounds/fnafar-music.mp3"
+    "sounds": "assets/sounds/fnafar-music.mp3",
+    "official_game": "Official Game"
   },
   {
     "game": "Five Nights at Freddy's: Security Breach ",
@@ -61,6 +95,7 @@
     "img": "./assets/image/FNAF-Game/FNAF-security-breach.jpg",
     "background": "./assets/image/FNAF-Game/security-breach.webp",
     "realeased_date": "2021",
-    "sounds": "assets/sounds/fnafsb-music.mp3"
+    "sounds": "assets/sounds/fnafsb-music.mp3",
+    "official_game": "Official Game"
   }
 ]
